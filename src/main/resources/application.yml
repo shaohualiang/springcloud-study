@@ -1,0 +1,13 @@
+spring: 
+  profiles: 
+    active: dev
+  application:
+    name: shl-eureka
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+  instance:
+    hostname: localhost
+server: 
+  port: 18800
